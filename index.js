@@ -10,6 +10,6 @@ submitButton.addEventListener('click', (e) => {
         sum += Number(priceInput[i].value)
     }
 
-    totalAmount.value = sum
+    totalAmount.value = sum + 1;
 
 })
