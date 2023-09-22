@@ -2,7 +2,7 @@ const submitButton = document.querySelector(`#submit`)
 const priceInput = document.querySelectorAll(`.price`)
 const totalAmount = document.querySelector(`#total`)
 
-var k;
+
 
 submitButton.addEventListener('click', (e) => {
     let sum = 0
