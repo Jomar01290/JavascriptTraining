@@ -12,5 +12,6 @@ submitButton.addEventListener('click', (e) => {
     }
 
     totalAmount.value = sum + 2;
+    totalAmount.value = sum + 1;
 
 })
